@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: lightblue;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
+#my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+    width: 80%;
+}
+  
+#my-form input[type='text'] {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.list-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+}
+
+.add-button {
+    width: 15%;
+    padding: 8px 8px;
+    border: 10;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 10px;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-button:hover{
+    color: #333;
+    background: #fff;
+}
+
+
+.task-list .completed-task-list{
+    width: 100%;
+}
+
+
+.task-div{
+    width: 100%;
+    padding: 8px 8px;
+    border: 10;
+    background: lightblue;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.task-item {
+    margin: 0.5rem;
+    float: center;
+    width: 80%;
+    background: lightblue;
+    color: black;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+
+.delete-button{
+    border: none;
+    padding: 0.9rem;
+    background: lightblue;
+    color: black;
+}
+
+.delete-button:hover{
+    background: black;
+    color: white;
+}
+
+.fa-trash{
+    pointer-events: none;
+}
+
+.completed-task{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.error {
+    background: orangered;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+  }
